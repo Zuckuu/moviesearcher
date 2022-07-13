@@ -6,6 +6,19 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+html.md-theme-default {
+    background-color: #fafafa;
+    background-color: var(--md-theme-default-background-variant,#fafafa);
+    color: rgba(0,0,0,.87);
+    color: var(--md-theme-default-text-primary-on-background-variant,rgba(0,0,0,.87));
+}
+
+body, html {
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
 #app[data-v-5fdf2371] {
   min-height: 100vh;
   display: flex;
