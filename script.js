@@ -1,4 +1,4 @@
-//http://www.omdbapi.com/?i=tt3896198&apikey=25adfd92
+//https://www.omdbapi.com/?i=tt3896198&apikey=25adfd92
 //https://www.omdbapi.com/?s=avengers&page=2&apikey=25adfd92
 
 const movieSearchBox = document.getElementById("movie-search-box");
